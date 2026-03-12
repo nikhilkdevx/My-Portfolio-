@@ -7,38 +7,50 @@
 body{
     overflow:auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 .navbar{
-    height: 40px;
-    position: fixed;
+   
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    background-color:blue;
+    background-color:#FB8500;
     color:white;
     display:flex;
-    flex-direction: row;
     align-items:center;
     justify-content:space-between;
-   
+    border-radius: 0 0 5px 5px;
+    padding: 20px 60px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 
 }
-.logo{
- width: 30%;
-font-size: 20px;
-font-weight: bold;
+.logo  {
+
+font-size: 22px;
+font-weight: 800;
+margin-left: 10px;
+
+}
+.logo a{
+    color:white;
+    text-decoration:none;
+}
+.logo a:hover{
+    color:#023047;
+    font-size: 22px;
 }
 .nav-links{
     width: 70%;
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items:center;
-    list-style:none;
-    
-
-   
+    align-items:space-around;
+    list-style:none; 
+    gap: 20px;
 }
 .nav-links li{
     margin-right: 20px;
@@ -48,6 +60,9 @@ font-weight: bold;
     text-decoration:none;
     font-size: 16px;
     font-weight: 500;
+}
+.nav-links li a:hover{
+    color:#023047;
 }
 .hero{
     height: 100vh;
