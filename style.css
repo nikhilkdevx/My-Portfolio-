@@ -67,12 +67,12 @@ margin-left: 10px;
 .hero{
     height: 100vh;
     background-color: lightgray;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 80px;
 
-    padding: 80px 60px;
+    padding: 1000px 60px;
 
 }
 .about{
@@ -108,8 +108,9 @@ margin-left: 10px;
 
 }
 .hero-image img{
-    width: 300px;
+    max-width: 320px;
     border-radius: 10px;
+    height: auto;
 }
 .hero-content{
     max-width: 500px;
