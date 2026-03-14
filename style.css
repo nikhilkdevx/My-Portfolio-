@@ -6,11 +6,12 @@
 }
 body{
     overflow:auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 html {
   scroll-behavior: smooth;
 }
-
 
 .navbar{
    
@@ -71,8 +72,7 @@ margin-left: 10px;
     align-items: center;
     justify-content: center;
     gap: 80px;
-
-    padding: 1000px 60px;
+    padding: 150px 60px;
 
 }
 .about{
@@ -111,7 +111,21 @@ margin-left: 10px;
     max-width: 320px;
     border-radius: 10px;
     height: auto;
+    position:relative;
+    top : 160px;
 }
 .hero-content{
     max-width: 500px;
+}
+.hero-content button {
+    display:flex;
+    flex-direction: column;
+    margin-bottom:20px;
+}
+
+.Nik{
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-weight: 800;
+    
 }
