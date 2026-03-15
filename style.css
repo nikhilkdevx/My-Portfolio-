@@ -78,9 +78,8 @@ margin-left: 10px;
 .about{
     height: 100vh;
     background-color: lightblue;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display:block;
+   
 
 }
 .skills{
@@ -132,4 +131,7 @@ margin-left: 10px;
     text-decoration-color: red;
     font-weight: 800;
     
+}
+.about div{
+    padding: 40px;
 }
