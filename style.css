@@ -27,6 +27,7 @@ html {
     border-radius: 0 0 5px 5px;
     padding: 20px 60px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    z-index: 100;
 
 }
 .logo  {
@@ -75,23 +76,12 @@ margin-left: 10px;
     padding: 150px 60px;
 
 }
-.container{
-    height: 100vh;
-    background-color: lightblue;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-between;
-   
 
-}
 .skills{
-    height: 100vh;
+    height: 70vh;
     background-color: lightgreen;
     display:flex;
-    align-items:center;
-    justify-content:center;
-
+    justify-content: center;
 }
 .projects{
     height: 100vh;
@@ -138,4 +128,18 @@ margin-left: 10px;
 .about div{
     padding: 40px;
     margin-top:40px;
+}
+.aboutme{
+    text-align: center;
+}
+.card{
+    height:600px;
+    border : 2px solid black;
+    padding: 10px;
+    margin:20px;
+    margin-top:80px;
+
+}
+.Skill{
+    text-align: center;
 }
