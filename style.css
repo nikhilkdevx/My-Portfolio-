@@ -86,12 +86,13 @@ margin-left: 10px;
 .projects{
     height: 100vh;
     background-color: lightcoral;
-    
+    display:flex;
+    justify-items: center;
 
 }
 .contact{
     height: 100vh;
-    background-color: lightyellow;
+    background-color: black;
     display:flex;
     align-items:center;
     justify-content:center;
