@@ -86,9 +86,7 @@ margin-left: 10px;
 .projects{
     height: 100vh;
     background-color: lightcoral;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    
 
 }
 .contact{
@@ -141,5 +139,8 @@ margin-left: 10px;
 
 }
 .Skill{
+    text-align: center;
+}
+h1{
     text-align: center;
 }
