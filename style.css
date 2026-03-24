@@ -88,15 +88,33 @@ letter-spacing: 1px;
      
 }
 
+/* Hero Section */
 .hero{
     height: 140vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 50px;
     padding: 50px 100px ;
 
 }
+
+/* Hero Section Left Part */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero section right Part  */
 .image {
     width: 250px;
     height: 250px;
@@ -117,6 +135,22 @@ letter-spacing: 1px;
     align-items: center;
     gap: 30px;
 }
+.Socials a{
+    text-decoration: none;
+    color: #E2E8F0;
+    font-size: 20px; 
+}
+.Socials a:hover{
+    color:#22D3EE;
+}
+
+
+
+
+
+
+
+
 .skills{
     height: 70vh;
     
