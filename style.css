@@ -12,8 +12,7 @@ body{
 h1{
     
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 48px;
+  
 }
 p {
   font-family: "Inter", sans-serif;
@@ -25,6 +24,8 @@ p {
 html {
   scroll-behavior: smooth;
 }
+
+/* Navbar */
 
 .navbar{
    
@@ -90,34 +91,55 @@ letter-spacing: 1px;
 
 /* Hero Section */
 .hero{
-    height: 140vh;
+    height: 100vh;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 50px;
-    padding: 50px 100px ;
+    gap: 100px;
+    padding: 90px 80px ;
+    margin-top:100px ;
 
 }
 
 /* Hero Section Left Part */
+.hero-content {
+color:#E2E8F0;
+}
+.hi{
+    font-weight: bold;
+    font-size: 20px;
+}
+.nik{
+     font-weight: bold;
+     font-size: 30px;
+     color:#3B82F6;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.sof{
+    font-weight: bold;
+    text-align: left;
+    font-size:50px;
+    
+    
+}
+.dev{
+    font-weight: bold;
+    text-align: right;
+    font-size:50px;
+    
+}
+#hireme{
+    color:#E2E8F0;
+    border-color: #3B82F6;
+}
+#hireme:hover{
+    background-color: #22D3EE;
+}
 
 /* hero section right Part  */
 .image {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
     border:2px solid #22D3EE;
@@ -138,7 +160,7 @@ letter-spacing: 1px;
 .Socials a{
     text-decoration: none;
     color: #E2E8F0;
-    font-size: 20px; 
+    font-size: 25px; 
 }
 .Socials a:hover{
     color:#22D3EE;
@@ -208,7 +230,7 @@ letter-spacing: 1px;
 .Skill{
     text-align: center;
 }
-h1{
+/* h1{
     text-align: center;
     margin-top: 10px;
-}
+} */
