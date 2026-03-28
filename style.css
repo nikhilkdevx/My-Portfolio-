@@ -204,14 +204,14 @@ color:#E2E8F0;
     appearance: none;
     width: 400px;
     height:8px;
-    background:transparent;
+    background:#22D3EE;
     cursor:pointer;
 }
-.details input[type="range"]::-webkit-slider-runnable-track{
+/* .details input[type="range"]::-webkit-slider-runnable-track{
     height:8px;
     background:linear-gradient(to right,#3B82F6,#22D3EE);
     border-radius:10px;
-}
+} */
 .details input[type="range"]::-webkit-slider-thumb{
     -webkit-appearance: none;
     height:18px;
