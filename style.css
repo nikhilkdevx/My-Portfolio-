@@ -230,7 +230,7 @@ color:#E2E8F0;
     
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .Servicesheading{
@@ -241,17 +241,25 @@ color:#E2E8F0;
 .Servicescards{
     display:flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
+    gap: 20px;
+    margin-top: 40px;
+}
+.Card{
+    width:300px;
+    height:300px;
+    border: 2px solid #22D3EE;
+    background-color:rgba(59, 130, 246, 0.7) ;
+    padding:10px 10px;
+    color:#E2E8F0;
+}
+.Card i{
+    font-size: 50px;
+    
 }
 
-
-
-
-
-
-
-
-
+/* Projects Section */
 
 .projects{
     height: 100vh;
@@ -260,11 +268,12 @@ color:#E2E8F0;
     justify-items: center;
 
 }
+
+
+/* Contact section */
+
 .contact{
     height: 100vh;
-    
-    
-
 }
 
 .hero-content{
