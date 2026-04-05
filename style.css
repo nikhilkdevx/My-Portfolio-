@@ -100,6 +100,18 @@ letter-spacing: 1px;
     margin-top:100px ;
 
 }
+.hero-content{
+    max-width: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.hero-content button {
+    display:flex;
+    flex-direction: column;
+    margin-bottom:20px;
+}
 
 /* Hero Section Left Part */
 .hero-content {
@@ -354,38 +366,7 @@ color:#E2E8F0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.hero-content{
-    max-width: 500px;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-}
-.hero-content button {
-    display:flex;
-    flex-direction: column;
-    margin-bottom:20px;
-}
-
-.Nik{
+/* .Nik{
     text-decoration: underline;
     text-decoration-color: red;
     font-weight: 800;
@@ -407,7 +388,7 @@ color:#E2E8F0;
 }
 .Skill{
     text-align: center;
-}
+} */
 /* h1{
     text-align: center;
     margin-top: 10px;
