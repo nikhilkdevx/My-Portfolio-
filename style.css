@@ -261,7 +261,7 @@ color:#E2E8F0;
 
 /* Projects Section */
 
-.Myprojects{
+.pro{
     height: 100vh;
     
     display:flex;
@@ -269,19 +269,32 @@ color:#E2E8F0;
     justify-items: center;
     align-items: center;
     gap:30px;
+    
 
 }
-.Projectsheading{
-    text-align: center;
+
+.Myprojectsdetails .Projectsheading{
+    
+    
     width:1000px;
     color: #E2E8F0;
 
+}
+.Projectsheading h1{
+    text-align: center;
+
+}
+.Projectsheading p{
+    text-align: center;
+    width:1000px;
+    height: 50px;
 }
 .Buttons{
     display: flex;
     flex-direction: row;
     gap:20px;
     justify-content: center;
+    margin-top:40px;
 }
 .projectcards{
     display: flex;
@@ -292,11 +305,13 @@ color:#E2E8F0;
     height:300px;
     width:300px;
     border: 2px solid #22D3EE;
+    overflow:hidden;
 }
 .projectcards img{
     height:300px;
     width:300px;
     object-fit:cover;
+    
     
 }
 
@@ -304,8 +319,58 @@ color:#E2E8F0;
 /* Contact section */
 
 .contact{
-    height: 100vh;
+    height: 50vh;
+    padding:0px 350px;
 }
+.contact h1{
+    color: #E2E8F0;
+    text-align: center;
+}
+
+/* Footer Section */
+
+.footer {
+    height:50vh;
+    background-color: rgba(59, 130, 246, 0.4);
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 200px; 
+    gap:10px;
+    
+}
+.MyBranding{
+    color:#E2E8F0;
+    text-align: center;
+}
+.footerlinks a{
+    color:#E2E8F0;
+    text-decoration: none;
+    list-style: none;
+    display:inline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hero-content{
     max-width: 500px;
