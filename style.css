@@ -236,32 +236,22 @@ color:#E2E8F0;
     width:30%;
     color:#E2E8F0;
 }
-
-/* Track Styling */
-
-.details input[type="range"]{
-    -webkit-appearance: none;
-    appearance: none;
-    width: 400px;
-    height:8px;
-    background:#22D3EE;
-    cursor:pointer;
+.skill {
+    width: 300px;
+    height: 8px;
+    background: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
-.details input[type="range"]::-webkit-slider-thumb{
-    -webkit-appearance: none;
-    height:18px;
-    width:18px;
-    background:white;
-    border: 3px solid #22D3EE;
-    border-radius: 50%;
-    margin-top:-2px;
-    transition: 0.2s;
+.skill-bar {
+    height: 100%;
+    width: 0;
+    background: #22D3EE;
 }
-.details input[type="range"]::-webkit-slider-thumb:hover{
-    transform:scale(1.2);
-    background: #3B82F6;
-}
+
+
+
 
 /* Services Section */
 
@@ -498,17 +488,72 @@ color:#E2E8F0;
     animation: Right 3s ease-out forwards;
     animation-delay:0.3s;
 }
-@keyframes Webdev{
-    from{
-        
-        width:0;
+
+@keyframes webdev {
+    from {
+        width: 0;
     }
-    to{ width:90%;
-        
+    to {
+        width: 90%;
     }
 }
-.webdev{
-    width:0;
+
+.webdev {
     animation: webdev 2s ease-out forwards;
-    animation-delay:0.3s;
+    animation-delay:3s;
+}
+@keyframes videoediting{
+    from{width:0;
+    }
+    to{width:80%;
+    }
+}
+.videoediting{
+    animation: videoediting 2s ease-out forwards;
+    animation-delay: 3s;
+}
+@keyframes Teaching{
+    from{
+        width :0 ;
+    }
+    to{
+        width:95%;
+    }
+}
+.Teaching{
+    animation : Teaching 2s ease-out forwards;
+    animation-delay: 3s;
+}
+@keyframes UI{
+    from{
+        width :0 ;
+    }
+    to{
+        width:70%;
+    }
+}
+.UI{
+    animation : UI 2s ease-out forwards;
+    animation-delay: 3s;
+} 
+.Servicescards .Card {
+    transition: all 0.3s ease;
+}
+
+.Servicescards .Card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(34, 211, 238, 0.2);
+}
+.projectcards img{
+    transition : all 0.4s ease;
+}
+.projectcards img:hover{
+    transform: scale(1.05);
+}
+button {
+    transition: all 0.3s ease;
+}
+button:hover{
+    transform:scale(1.05);
+    box-shadow: 0 5px 15px rgba(34, 211, 238, 0.3);;
 }
